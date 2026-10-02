@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>eBooks for Patty</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+	@font-face {
+		font-family: Georgia;
+		src: url("Georgia.ttf");
+	} body {
+		background: whitesmoke;
+	} #page {
+		width: 1024px;
+		height: 768px;
+		border: 1px solid gray;
+		margin: 24px auto;
+		background: white;
+	} #textbox {
+		width: 924px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: flex-start;
+	} h1 {
+		font: 36pt/1.4em 'Dancing Script';
+		text-align: center;
+	} p {
+		width: 768px;
+		margin: 36px auto;
+		font: 14pt/1.4em Georgia;
+	} img {
+		width: 150px;
+		display: block;
+		margin: 0 auto;
+	} figure {
+		width: 200px;
+	} figcaption {
+		font: 12pt/1.4em Georgia, serif;
+		text-align: center;
+	} a {
+		cursor: pointer;
+	}
+</style>
+</head>
+
+<body>
+	<div id="page">
+		<h1>eBooks for Patty</h1>
+		<div id="textbox">
+		<p>The thumbnails below link to three versions of eBooks:<br/>
+		&bull; ePub from Adobe InDesign, readable with Apple Books on MacOS or iOS or with an ePub reader on Windows. (Download by clicking on the thumbnail image.)<br/>
+		&bull; Pressbook created on <a href="https:pressbooks.com">pressbooks.com</a>, click to read online.<br/>
+		&bull; Amazon Kindle, click to download and read on a Kindle eReader.</p>
+		
+		<figure>
+		<a href="rabbit.epub">
+		<img src="thumb-rabbit-cover.jpg" />
+		</a>
+		<figcaption>ePub eBook<br/>
+		<i>Read with Apple Books</i></figcaption>
+		</figure>
+		<figure>
+		<a href="https://pressbooks.library.torontomu.ca/rabbit" target="_blank">
+		<img src="thumb-rabbit-pressbook.jpg" />
+		</a>
+		<figcaption>Pressbook eBook<br/>
+		<i>Read online or download ePub or PDF</i></figcaption>
+		</figure>
+		<figure>
+		<a href="rabbit_KC/KPF/">
+		<img src="thumb-rabbit-kindle.jpg" />
+		</a>
+		<figcaption>Amazon Kindle eBook<br/><i>Read on Kindle eReader</i></figcaption>
+		</figure>
+		</div>
+	</div>
+</body>
+</html>
